@@ -5,7 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: rgb(255, 255, 255);
 }
+
+li{
+  list-style: none;
+}
+
+.addBtn{
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.deleteBtn{
+  background-color: #c91717;
+  border: none;
+  color: white;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
